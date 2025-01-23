@@ -1,1 +1,175 @@
+{
+    "patterns": {
+        "motifs": [
+            {
+                "id": "MOTIF_001",
+                "name": "TATA Box",
+                "sequence": "TATAAA",
+                "function": "Core promoter element involved in the initiation of transcription.",
+                "associated_genes": ["TP53", "BRCA1", "MYC"],
+                "species": ["Homo sapiens", "Mus musculus"],
+                "frequency": {
+                    "Homo sapiens": 150,
+                    "Mus musculus": 120
+                },
+                "structure": {
+                    "type": "DNA",
+                    "secondary_structure": "Double helix",
+                    "binding_proteins": ["TBP", "TFIID"]
+                },
+                "conservation": {
+                    "percentage": 85,
+                    "regions": ["Promoter regions of housekeeping genes"]
+                },
+                "variants": [
+                    {
+                        "variant_id": "VAR_001",
+                        "description": "Single nucleotide polymorphism causing loss of function.",
+                        "impact": "High",
+                        "frequency": {
+                            "Homo sapiens": 0.02,
+                            "Mus musculus": 0.01
+                        }
+                    },
+                    {
+                        "variant_id": "VAR_002",
+                        "description": "Insertion leading to promoter disruption.",
+                        "impact": "Moderate",
+                        "frequency": {
+                            "Homo sapiens": 0.005,
+                            "Mus musculus": 0.003
+                        }
+                    }
+                ],
+                "references": [
+                    "PMID:12345678",
+                    "PMID:87654321"
+                ],
+                "annotations": {
+                    "clinical_significance": "Associated with various cancers due to impaired gene regulation.",
+                    "functional_annotations": "Essential for recruiting transcription machinery."
+                }
+            },
+            {
+                "id": "MOTIF_002",
+                "name": "CAAT Box",
+                "sequence": "GGCCAATCT",
+                "function": "Enhances the efficiency of transcription initiation.",
+                "associated_genes": ["ACTB", "GAPDH", "EGFR"],
+                "species": ["Homo sapiens", "Rattus norvegicus"],
+                "frequency": {
+                    "Homo sapiens": 200,
+                    "Rattus norvegicus": 180
+                },
+                "structure": {
+                    "type": "DNA",
+                    "secondary_structure": "Double helix",
+                    "binding_proteins": ["NF-Y", "TFIIIA"]
+                },
+                "conservation": {
+                    "percentage": 78,
+                    "regions": ["Promoter regions of ribosomal and metabolic genes"]
+                },
+                "variants": [
+                    {
+                        "variant_id": "VAR_003",
+                        "description": "Deletion removing entire CAAT box.",
+                        "impact": "High",
+                        "frequency": {
+                            "Homo sapiens": 0.015,
+                            "Rattus norvegicus": 0.01
+                        }
+                    }
+                ],
+                "references": [
+                    "PMID:23456789",
+                    "PMID:98765432"
+                ],
+                "annotations": {
+                    "clinical_significance": "Linked to developmental disorders due to impaired gene expression.",
+                    "functional_annotations": "Facilitates binding of transcription factors necessary for gene activation."
+                }
+            }
+        ],
+        "regulatory_elements": [
+            {
+                "id": "REGULATOR_001",
+                "name": "Enhancer Element",
+                "sequence": "GAGGCCGAGG",
+                "function": "Increases transcription levels of associated genes.",
+                "associated_genes": ["SOX2", "OCT4", "NANOG"],
+                "species": ["Homo sapiens", "Danio rerio"],
+                "activity": {
+                    "cell_type_specific": ["Stem cells", "Neurons"],
+                    "responsive_to": ["Hypoxia", "Hormonal signals"]
+                },
+                "conservation": {
+                    "percentage": 65,
+                    "regions": ["Intronic and intergenic regions"]
+                },
+                "variants": [],
+                "references": [
+                    "PMID:34567890",
+                    "PMID:09876543"
+                ],
+                "annotations": {
+                    "clinical_significance": "Dysregulation implicated in autoimmune diseases and cancers.",
+                    "functional_annotations": "Interacts with promoters through DNA looping to enhance gene expression."
+                }
+            }
+        ],
+        "transcription_factors": [
+            {
+                "id": "TF_001",
+                "name": "NF-κB",
+                "binding_sequence": "GGGACTTTCC",
+                "function": "Regulates immune response genes.",
+                "associated_genes": ["IL6", "TNF", "NFKBIA"],
+                "species": ["Homo sapiens", "Mus musculus"],
+                "binding_affinity": "High",
+                "conservation": {
+                    "percentage": 90,
+                    "domains": ["Rel homology domain"]
+                },
+                "variants": [],
+                "references": [
+                    "PMID:45678901",
+                    "PMID:10987654"
+                ],
+                "annotations": {
+                    "clinical_significance": "Overactivation linked to chronic inflammatory diseases and cancer.",
+                    "functional_annotations": "Activated by various stimuli leading to translocation to the nucleus and gene regulation."
+                }
+            }
+        ]
+    },
+    "metadata": {
+        "generated_by": "WAVE AI Platform",
+        "generation_date": "2025-01-22T10:00:00Z",
+        "version": "1.0.0",
+        "source": "Internal genomic databases and literature mining",
+        "update_frequency": "Monthly",
+        "maintainers": [
+            {
+                "name": "Dr. Alice Smith",
+                "role": "Genomic Data Analyst",
+                "contact": "alice.smith@waveai.org"
+            },
+            {
+                "name": "Dr. Bob Johnson",
+                "role": "Bioinformatics Specialist",
+                "contact": "bob.johnson@waveai.org"
+            }
+        ],
+        "access_control": {
+            "read_permissions": ["researchers@waveai.org", "partners@waveai.org"],
+            "write_permissions": ["admin@waveai.org"]
+        },
+        "compliance": {
+            "data_privacy": "GDPR compliant",
+            "ethical_guidelines": "Aligned with NIH bioethics policies",
+            "data_usage": "For research and development within WAVE ecosystem"
+        }
+    }
+}
 
