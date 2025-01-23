@@ -1,6 +1,6 @@
 # WAVE: A Real-Time Evolutionary AI Ecosystem for Intelligent Genomics and Bioengineering
 
-![WAVE Logo](path_to_logo_image) <!-- Replace with your logo path -->
+![Image](https://github.com/user-attachments/assets/f40bb9bf-7d58-4efb-9a2c-3f6300e9b0b7)
 
 ## Table of Contents
 
